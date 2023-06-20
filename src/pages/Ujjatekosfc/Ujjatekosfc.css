@@ -1,0 +1,43 @@
+.form-div {
+    border-radius: 50px;
+    background: #dbdbdb;
+    box-shadow:  20px 20px 60px #ffffffc7,
+                 -20px -20px 60px #000000;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    width: 500px;
+    height: 300px;
+    max-width: 90%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+td:nth-child(1) {
+    text-align: right;
+}
+
+.form-div td {
+    vertical-align: baseline;
+}
+
+input {
+    margin-top: 20px;
+}
+
+label {
+    margin: 20px;
+}
+
+.gombh {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 680px) {
+    .form-div {
+        width: 450px;
+        padding-top: 20px;
+    }
+}

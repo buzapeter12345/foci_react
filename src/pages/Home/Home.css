@@ -1,0 +1,66 @@
+.selector {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10vh;
+  }
+
+.csapat {
+    display: flex;
+}
+
+body {
+    background-image: url(https://img.freepik.com/premium-photo/green-grass-background-football-field_41969-6656.jpg?w=2000);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.home-container a {
+    margin: auto;
+}
+.home-container img {
+    margin: auto;
+    height: 25vw;
+}
+
+.csapat {
+    transition: all ease-in-out 0.4s;
+}
+
+.csapat img {
+    transition: transform .2s;
+}
+
+.csapat img:hover {
+    transform: scale(1.2);
+}
+
+.home-container h1 {
+    font-size: 6vw;
+    margin-top: 5vh;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 10px black;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .home-container h1 {
+        margin-top: 6vh;
+        font-size: 8vw;
+    }
+
+    .selector {
+        grid-template-columns: 100%;
+    }
+
+    .home-container img {
+        width: 30vh;
+        height: 30vh;
+    }
+
+    #csapat2 {
+        margin-top: 10vh;
+    }
+
+}
+
